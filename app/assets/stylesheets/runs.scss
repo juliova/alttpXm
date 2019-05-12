@@ -1,0 +1,89 @@
+// Place all the styles related to the Runs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$bg-clr: #34495e;
+$txt-clr: #ecf0f1;
+$counter-clr: #fdd549;
+$border:  #7d3c98;
+$third: 33.3%;
+$img: "/assets/";
+
+h1{
+	color: $txt-clr;
+}
+
+span{
+	color: $counter-clr;
+}
+
+#tracker{
+	background: $bg-clr;
+	height: auto;
+}
+
+.tracker-table{
+	float: left;
+	td{
+		position: relative;
+		border: 1px solid $border;
+	}
+}
+
+.metroid{
+	width: $third;
+}
+
+.timeform{
+	width: $third;
+}
+
+.alttp{
+	width: $third;
+}
+
+.darken{
+	opacity: 0.5;
+}
+
+.sprite{
+	width: 64px;
+	height: 64px;
+	margin: 2px;
+}
+
+.missile{
+	background-image: image-url($img+"missile.png");
+}
+
+.supermissile{
+	background-image: image-url($img+"supermissile.png");
+}
+
+.powerbomb{
+	background-image: image-url($img+"powerbomb.png");
+}
+
+.grappling{
+	background-image: image-url($img+"grappling.png");	
+}
+
+.x-ray{
+	background-image: image-url($img+"x-ray.png");
+}
+
+.charge{
+	background-image: image-url($img+"charge.png");
+}
+
+.ice{
+	background-image: image-url($img+"ice.png");
+}
+
+.wave{
+	background-image: image-url($img+"wave.png");
+}
+
+.spazer{
+	background-image: image-url($img+"spazer.png");
+}
