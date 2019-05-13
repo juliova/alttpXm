@@ -228,6 +228,10 @@ span{
 	background-image: image-url($img+"sword3.png");
 }
 
+.sword4{
+	background-image: image-url($img+"sword4.png");
+}
+
 #shield{
 	position: absolute;
 	left: -5px;
@@ -247,7 +251,7 @@ span{
 }
 
 .shield3{
-	
+	background-image: image-url($img+"shield3.png");
 }
 
 .moonpearl{
@@ -257,4 +261,276 @@ span{
 	position: absolute;
 	right: 0;
 	bottom: -5px;
+}
+
+.bow0{
+	background-image: image-url($img+"bow0.png");	
+}
+
+.bow1{
+	background-image: image-url($img+"bow1.png");
+}
+
+.bow2{
+	background-image: image-url($img+"bow2.png");
+}
+
+.bow3{
+	background-image: image-url($img+"bow3.png");
+}
+
+.boomerang0{
+	background-image: image-url($img+"boomerang0.png");
+}
+
+.boomerang1{
+	background-image: image-url($img+"boomerang0.png");
+}
+
+.boomerang2{
+	background-image: image-url($img+"boomerang1.png");
+}
+
+.boomerang3{
+	background-image: image-url($img+"boomerang2.png");
+}
+
+.hookshot{
+	background-image: image-url($img+"hookshot.png");
+}
+
+.mushroom{
+	background-image: image-url($img+"mushroom.png");
+}
+
+.powder{
+	background-image: image-url($img+"powder.png");
+}
+
+.firerod{
+	background-image: image-url($img+"firerod.png");
+}
+
+.icerod{
+	background-image: image-url($img+"icerod.png");
+}
+
+.bombos{
+	background-image: image-url($img+"bombos.png");
+}
+
+.ether{
+	background-image: image-url($img+"ether.png");
+}
+
+.quake{
+	background-image: image-url($img+"quake.png");
+}
+
+.lantern{
+	background-image: image-url($img+"lantern.png");
+}
+
+.hammer{
+	background-image: image-url($img+"hammer.png");
+}
+
+.shovel{
+	background-image: image-url($img+"shovel.png");
+}
+
+.net{
+	background-image: image-url($img+"net.png");
+}
+
+.book{
+	background-image: image-url($img+"book.png");
+}
+
+.bottle0{
+	background-image: image-url($img+"bottle0.png");
+}
+
+.bottle1{
+	background-image: image-url($img+"bottle1.png");
+}
+
+.bottle2{
+	background-image: image-url($img+"bottle2.png");
+}
+
+.bottle3{
+	background-image: image-url($img+"bottle3.png");
+}
+
+.bottle4{
+	background-image: image-url($img+"bottle4.png");
+}
+
+.somaria{
+	background-image: image-url($img+"somaria.png");
+}
+
+.byrna{
+	background-image: image-url($img+"byrna.png");
+}
+
+.cape{
+	background-image: image-url($img+"cape.png");
+}
+
+.mirror{
+	background-image: image-url($img+"mirror.png");
+}
+
+.boots{
+	background-image: image-url($img+"boots.png");
+}
+
+.glove0{
+	background-image: image-url($img+"glove0.png");
+}
+
+.glove1{
+	background-image: image-url($img+"glove0.png");
+}
+
+.glove2{
+	background-image: image-url($img+"glove2.png");
+}
+
+.flippers{
+	background-image: image-url($img+"flippers.png");
+}
+
+.flute{
+	background-image: image-url($img+"flute.png");
+}
+
+.agahnim0{
+	background-image: image-url($img+"agahnim0.png");
+}
+
+.agahnim1{
+	background-image: image-url($img+"agahnim1.png");
+}
+
+.extras{
+	height: 32px;
+	width: 32px;
+	position: absolute;
+}
+
+.prize{
+	right: 0;
+	bottom: 0;
+}
+
+.prize0{
+	background-image: image-url($img+"prize0.png");
+}
+
+.prize1{
+	background-image: image-url($img+"prize1.png");
+}
+
+.prize2{
+	background-image: image-url($img+"prize2.png");
+}
+
+.prize3{
+	background-image: image-url($img+"prize3.png");
+}
+
+.prize4{
+	background-image: image-url($img+"prize4.png");
+}
+
+.medal{
+	left: 0;
+	bottom: 0;
+}
+
+.medallion0{
+	background-image: image-url($img+"medallion0.png");
+}
+
+.medallion1{
+	background-image: image-url($img+"medallion1.png");
+}
+
+.medallion2{
+	background-image: image-url($img+"medallion2.png");
+}
+
+.medallion3{
+	background-image: image-url($img+"medallion3.png");
+}
+
+.boss0{
+	background-image: image-url($img+"boss0.png");
+}
+
+.boss1{
+	background-image: image-url($img+"boss1.png");
+}
+
+.boss2{
+	background-image: image-url($img+"boss2.png");
+}
+
+.boss3{
+	background-image: image-url($img+"boss3.png");
+}
+
+.boss4{
+	background-image: image-url($img+"boss4.png");
+}
+
+.boss5{
+	background-image: image-url($img+"boss5.png");
+}
+
+.boss6{
+	background-image: image-url($img+"boss6.png");
+}
+
+.boss7{
+	background-image: image-url($img+"boss7.png");
+}
+
+.boss8{
+	background-image: image-url($img+"boss8.png");
+}
+
+.boss9{
+	background-image: image-url($img+"boss9.png");
+}
+
+.chest0{
+	background-image: image-url($img+"chest0.png");
+}
+
+.chest1{
+	background-image: image-url($img+"chest1.png");
+}
+
+.chest2{
+	background-image: image-url($img+"chest2.png");
+}
+
+.chest3{
+	background-image: image-url($img+"chest3.png");
+}
+
+.chest4{
+	background-image: image-url($img+"chest4.png");
+}
+
+.chest5{
+	background-image: image-url($img+"chest5.png");
+}
+
+.chest6{
+	background-image: image-url($img+"chest6.png");
 }
