@@ -2,12 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$bg-clr: #34495e;
 $txt-clr: #ecf0f1;
 $counter-clr: #fdd549;
 $border:  #7d3c98;
-$third: 33.3%;
+$third: 33%;
 $img: "/assets/";
+
+body{
+	background: black;
+}
+
+.tracker{
+}
 
 h1{
 	color: $txt-clr;
@@ -17,16 +23,13 @@ span{
 	color: $counter-clr;
 }
 
-#tracker{
-	background: $bg-clr;
-	height: auto;
-}
-
 .tracker-table{
-	float: left;
+	background: transparent;
 	td{
+		background:transparent;
 		position: relative;
-		border: 1px solid $border;
+		padding: 0;
+		margin: 0;
 	}
 }
 
@@ -49,7 +52,6 @@ span{
 .sprite{
 	width: 64px;
 	height: 64px;
-	margin: 2px;
 }
 
 .missile{
@@ -62,14 +64,15 @@ span{
 
 .powerbomb{
 	background-image: image-url($img+"powerbomb.png");
+	top: 0;
 }
 
 .grappling{
 	background-image: image-url($img+"grappling.png");	
 }
 
-.x-ray{
-	background-image: image-url($img+"x-ray.png");
+.xray{
+	background-image: image-url($img+"xray.png");
 }
 
 .charge{
@@ -86,4 +89,172 @@ span{
 
 .spazer{
 	background-image: image-url($img+"spazer.png");
+}
+
+.plasma{
+	background-image: image-url($img+"plasma.png");	
+}
+
+.varia{
+	background-image: image-url($img+"varia.png");
+}
+
+.morph{
+	background-image: image-url($img+"morph.png");
+}
+
+.bombs{
+	background-image: image-url($img+"bombs.png");
+}
+
+.space{
+	background-image: image-url($img+"space.png");
+}
+
+.hijump{
+	background-image: image-url($img+"hijump.png");
+}
+
+.gravity{
+	background-image: image-url($img+"gravity.png");
+}
+
+.springball{
+	background-image: image-url($img+"springball.png");
+}
+
+.screw{
+	background-image: image-url($img+"screw.png");
+}
+
+.speed{
+	background-image: image-url($img+"speed.png");
+}
+
+.etank{
+	background-image: image-url($img+"etank.png");
+}
+
+.kraid{
+	background-image: image-url($img+"kraid.png");
+}
+
+.phantoon{
+	background-image: image-url($img+"phantoon.png");
+}
+
+.draygon{
+	background-image: image-url($img+"draygon.png");
+}
+
+.ridley{
+	background-image: image-url($img+"ridley.png");
+}
+
+.rtank{
+	background-image: image-url($img+"rtank.png");
+}
+
+.counter{
+	font-style: bold;
+	font-size: 25px;
+	position: absolute;
+	right: 2px;
+	bottom: 0;
+	color: $counter-clr;
+}
+
+.character{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+}
+
+#link{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.tunic{
+	width: 128px;
+	height: 128px;
+}
+
+.tunic0{
+	background-image: image-url($img+"tunic0.png");
+}
+
+.tunic1{
+	background-image: image-url($img+"tunic1.png");
+}
+
+.tunic2{
+	background-image: image-url($img+"tunic2.png");
+}
+
+.tunicbunny0{
+	background-image: image-url($img+"tunicbunny0.png");
+}
+
+.tunicbunny1{
+	background-image: image-url($img+"tunicbunny1.png");
+}
+
+.tunicbunny2{
+	background-image: image-url($img+"tunicbunny2.png");
+}
+
+#sword{
+	position: absolute;
+	right: 0;
+	top: 18px;
+}
+
+.sword0{
+	background-image: image-url($img+"sword0.png");
+}
+
+.sword1{
+	background-image: image-url($img+"sword1.png");
+}
+
+.sword2{
+	background-image: image-url($img+"sword2.png");
+}
+
+.sword3{
+	background-image: image-url($img+"sword3.png");
+}
+
+#shield{
+	position: absolute;
+	left: -5px;
+	bottom: 0;
+}
+
+.shield0{
+	background-image: image-url($img+"shield0.png");
+}
+
+.shield1{
+	background-image: image-url($img+"shield1.png");
+}
+
+.shield2{
+	background-image: image-url($img+"shield2.png");
+}
+
+.shield3{
+	
+}
+
+.moonpearl{
+	width: 48px;
+	height: 48px;
+	background-image: image-url($img+"moonpearl.png");
+	position: absolute;
+	right: 0;
+	bottom: -5px;
 }
