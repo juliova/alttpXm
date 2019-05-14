@@ -8,19 +8,13 @@ $border:  #7d3c98;
 $third: 33%;
 $img: "/assets/";
 
-body{
-	background: black;
-}
-
 .tracker{
-}
-
-h1{
-	color: $txt-clr;
-}
-
-span{
-	color: $counter-clr;
+	height: 100vh;
+	background: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 .tracker-table{
@@ -34,11 +28,14 @@ span{
 }
 
 .metroid{
-	width: $third;
+	width: 24%;
 }
 
 .timeform{
-	width: $third;
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .alttp{
@@ -46,12 +43,21 @@ span{
 }
 
 .darken{
-	opacity: 0.5;
+	opacity: 0.3;
 }
 
 .sprite{
 	width: 64px;
 	height: 64px;
+}
+
+.spec-sprite{
+	width: 64px;
+	height: 64px;
+}
+
+.sprite:hover, .spec-sprite:hover{
+	opacity: 0.6;
 }
 
 .missile{
@@ -164,6 +170,47 @@ span{
 	color: $counter-clr;
 }
 
+button, input[type=submit]{
+	border: none;
+	font-size: 40px;
+	font-weight: bold;
+	color: #c2b8c6;
+}
+
+button:hover, input[type=submit]:hover{
+	color: black;
+	background: #c2b8c6;
+}
+
+.timer{
+	align-self: center;
+	width: 50%;
+	font-size: 40px;
+	background: transparent;
+	border: none;
+	color: #29853a;
+}
+
+.submit{
+	background: #225eb5;
+}
+
+.start{
+	background: #23cf23;
+}
+
+.pause{
+	background: #ea7c00;
+}
+
+.stop{
+	background: #ef0101;
+}
+
+.reset{
+	background: #6f0a6f;
+}
+
 .character{
 	position: absolute;
 	left: 0;
@@ -210,6 +257,8 @@ span{
 	position: absolute;
 	right: 0;
 	top: 18px;
+	height: 64px;
+	width: 64px;
 }
 
 .sword0{
@@ -236,6 +285,8 @@ span{
 	position: absolute;
 	left: -5px;
 	bottom: 0;
+	height: 64px;
+	width: 64px;
 }
 
 .shield0{
@@ -534,3 +585,4 @@ span{
 .chest6{
 	background-image: image-url($img+"chest6.png");
 }
+
